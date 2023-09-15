@@ -1,0 +1,90 @@
+.navigation {
+  border: 0;
+  height: 50px;
+  background-size: cover;
+  background-color: rgb(3, 145, 98);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-home-page,
+.button-chat,
+.button-profile {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+table {
+  margin: 50px 50px;
+}
+
+th {
+  border: 1px solid grey;
+  background-color: blanchedalmond;
+}
+
+td {
+  width: 10px;
+  height: 10px;
+  border: 1px solid grey;
+}
+.green {
+  width: 200px;
+  height: 300px;
+  background-color: green;
+}
+.dayActive {
+  background-color: #d4cfcf;
+  border: 2px solid rgb(15, 117, 15);
+}
+
+.dayEvent {
+  color: red;
+}
+
+.arr {
+  text-align: center;
+}
+.arr:hover {
+  background-color: rgb(214, 212, 212);
+}
+#content-event {
+  position: fixed;
+  left: 350px;
+  top: 200px;
+}
+.event-box {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 300px;
+
+  background-color: #c8c6c6;
+  border: 1px solid black;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#btnClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.event-box > p {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.event-span {
+  display: block;
+}
+#event-enter {
+  margin-bottom: 15px;
+}
+.btn-box {
+  margin-top: 70px;
+}
